@@ -128,9 +128,9 @@ static void hid_ptt_trigger_hand_zoom(HidPushToTalk* hid_ptt) {
 // zoom global macos
 static void hid_ptt_trigger_mute_macos_zoom_global(HidPushToTalk* hid_ptt) {
     hid_hal_keyboard_press(
-        hid_ptt->hid, KEY_MOD_LEFT_GUI | KEY_MOD_RIGHT_ALT | KEY_MOD_LEFT_SHIFT | HID_KEYBOARD_M);
+        hid_ptt->hid, KEY_MOD_LEFT_GUI | KEY_MOD_RIGHT_ALT | KEY_MOD_LEFT_SHIFT | HID_KEYBOARD_N);
     hid_hal_keyboard_release(
-        hid_ptt->hid, KEY_MOD_LEFT_GUI | KEY_MOD_RIGHT_ALT | KEY_MOD_LEFT_SHIFT | HID_KEYBOARD_M);
+        hid_ptt->hid, KEY_MOD_LEFT_GUI | KEY_MOD_RIGHT_ALT | KEY_MOD_LEFT_SHIFT | HID_KEYBOARD_N);
 }
 
 static void hid_ptt_trigger_camera_macos_zoom_global(HidPushToTalk* hid_ptt) {
