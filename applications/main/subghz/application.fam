@@ -96,6 +96,6 @@ App(
     targets=["f7"],
     apptype=FlipperAppType.STARTUP,
     entry_point="subghz_extended_freq",
-    # sources=["subghz_extended_freq.c"],
+    sources=["subghz_extended_freq.c"],
     order=650,
 )
